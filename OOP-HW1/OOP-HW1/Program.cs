@@ -10,7 +10,7 @@ namespace AbrahaG
     {
         static void Main(string[] args)
         {
-            Guitar guitar = new Guitar(22,6,"Starburst");
+            Guitar guitar = new Guitar(23,6,"Starburst");
             guitar.PrintBoard();
             guitar.PlaySampleChord();
             guitar.PrintBoard();

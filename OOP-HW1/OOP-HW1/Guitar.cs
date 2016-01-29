@@ -13,7 +13,7 @@ namespace AbrahaG
             NumberOfStrings = numberOfStrings;
             GuitarString = new List<GuitarString> { };
             tuneStandard();
-            Fretboard = new Fretboard();
+            Fretboard = new Fretboard("Maple");
             Fretboard.InitializeFrets(numberOfFrets, numberOfStrings);
             Color = color;
         }

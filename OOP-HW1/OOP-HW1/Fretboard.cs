@@ -8,9 +8,16 @@ namespace AbrahaG
 {
     class Fretboard
     {
-        public Fretboard()
+        public Fretboard(string neck)
         {
             frets = new List<List<char>> { };
+            NeckType = neck;
+        }
+
+        public string NeckType
+        {
+            get;
+            private set;
         }
 
         public List<List<char>> frets;
