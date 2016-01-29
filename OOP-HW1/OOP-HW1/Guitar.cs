@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace AbrahaG
 {
-    class Program
+    class Guitar
     {
-        static void Main(string[] args)
+        public Guitar()
         {
+
+        }
+
+        public string Color
+        {
+            get;
+            private set;
         }
     }
 }

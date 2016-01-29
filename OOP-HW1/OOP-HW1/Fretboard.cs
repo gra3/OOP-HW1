@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbrahaG
 {
-    class Program
+    class Fretboard
     {
-        static void Main(string[] args)
+        public Fretboard(int numberOfFrets, int numberOfStrings)
         {
+
         }
     }
 }

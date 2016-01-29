@@ -7,7 +7,7 @@
     <ProjectGuid>{B82D5622-E949-4C68-B570-B42F3C69461E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OOP_HW1</RootNamespace>
+    <RootNamespace>AbrahaG</RootNamespace>
     <AssemblyName>OOP-HW1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fretboard.cs" />
+    <Compile Include="Guitar.cs" />
+    <Compile Include="GuitarString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
